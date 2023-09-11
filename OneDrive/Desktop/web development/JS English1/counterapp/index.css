@@ -1,0 +1,55 @@
+body {
+    height: 100vh;
+    background-image: url("https://media.wired.com/photos/5c9911ea1e34481170ef2b8d/191:100/w_2400,h_1256,c_limit/McDonalds-462767668.jpg");
+    background-size: cover;
+    display: flex;
+}
+
+h1 {
+    color: yellow;
+    background-color: #bf0000;
+    width: fit-content;
+    font-weight: bold;
+}
+
+h2 {
+    color: yellow;
+    background-color: #bf0000;
+    width: fit-content;
+    font-weight: bold;
+}
+
+#save-el {
+    color: yellow;
+    font-weight: bolder;
+    font-size: large;
+}
+
+#increment-btn {
+    background-color: #9c5e5e;
+    width: 139px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+    font-weight: bold;
+
+}
+
+#save-btn {
+    background-color: #19a820;
+    width: 139px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+    font-weight: bold;
+}
+
+
+@media (max-width:1200px) {
+    body {
+        background-image: url("./1st/mac.jpg.jpg");
+        display: flex;
+    }
+}
